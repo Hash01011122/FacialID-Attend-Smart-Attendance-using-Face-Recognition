@@ -1,14 +1,17 @@
-# Python--Face-Recognition-Based-Attendance-System
-1.Introduction:
-            The human face plays an important role in our social interaction, conveying people’s identity. Using the human face as a key to security, biometric face recognition technology has received significant attention in the past several years due to its potential for a wide variety of applications in both law enforcement and non-law enforcement.   As compared with other biometrics systems using fingerprint/palmprint and iris, face recognition has distinct advantages because of its non-contact process. Face images can be captured from a distance without touching the person being identified, and the identification does not require interacting with the person. In addition, face recognition serves the crime deterrent purpose because face images that have been recorded and archived can later help identify a person. 
+## Introduction: 
+The human face holds significant importance in our social interactions as it serves as a primary means of conveying identity. The adoption of biometric face recognition technology has garnered considerable attention in recent years owing to its versatility across various applications, encompassing both law enforcement and non-law enforcement domains. In comparison to biometric systems utilizing fingerprints, palm prints, or iris recognition, face recognition stands out due to its non-intrusive nature. This method allows the capture of facial images from a distance without physical contact with the individual being identified, eliminating the need for direct interaction. Additionally, face recognition contributes to crime deterrence by enabling the retrieval and utilization of archived facial images for future identification purposes.
 
-2.Recognition Process:
-           Face Recognition Process is classified into three Phases as DataCreation Phase,Training Recognizer Phase,Detection Phase. 
-2.1 DataSet Creation Phase 
-           In this phase, pictures are captured and stored it in Dataset Folder. 
-2.2 Training Recognizer Phase 
-           In this Phase,the dataset is feed to LBPH Recogniser and trained the classifier. 
-2.3 Detection Phase 
-           In this Phase,the classifier is feed with new image and predicts the image either with known or unknown values. 
-3. Updating Attendance  
-           Finally the Image names and their attendance is marked in Excel sheet by camparing the current Id and Id in the sheet.
+## Recognition Process: 
+The Face Recognition Process consists of three distinct phases: Data Creation, Training Recognizer, and Detection.
+
+## Data Creation Phase (2.1): 
+In this initial phase, images are captured and stored within the Dataset Folder.
+
+## Training Recognizer Phase (2.2): 
+Subsequently, the dataset is utilized to train the LBPH Recognizer, a process that involves training the classifier.
+
+## Detection Phase (2.3): 
+In this concluding phase, the trained classifier analyzes new images and determines whether the image corresponds to known or unknown identities.
+
+## Updating Attendance: 
+Finally, the system updates attendance by cross-referencing the image names with their respective attendance records in an Excel sheet, comparing the current ID with the IDs recorded in the sheet.
